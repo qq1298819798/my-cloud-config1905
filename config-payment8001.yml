@@ -11,7 +11,7 @@ spring:
     name: config-payment
    datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver              # mysql驱动包
-    url: jdbc: jdbc:mysql://127.0.0.1/test?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=GMT%2B8              # 数据库名称
+    url: jdbc:mysql://127.0.0.1/test?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=GMT%2B8              # 数据库名称
     username: root
     password: root
 
@@ -39,7 +39,7 @@ spring:
     name: config-payment
    datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver              # mysql驱动包
-    url: jdbc: jdbc:mysql://127.0.0.1/clouddb02?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=GMT%2B8              # 数据库名称
+    url: jdbc:mysql://127.0.0.1/clouddb02?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=GMT%2B8              # 数据库名称
     username: root
     password: root
 
