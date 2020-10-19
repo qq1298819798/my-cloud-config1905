@@ -9,7 +9,8 @@ spring:
    profiles: dev
    application: 
     name: config-payment
-   datasource:
+   datasource: 
+    type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: com.mysql.cj.jdbc.Driver              # mysql驱动包
     url: jdbc:mysql://127.0.0.1/test?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=GMT%2B8              # 数据库名称
     username: root
@@ -37,7 +38,8 @@ spring:
    profiles: test
    application: 
     name: config-payment
-   datasource:
+   datasource: 
+    type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: com.mysql.cj.jdbc.Driver              # mysql驱动包
     url: jdbc:mysql://127.0.0.1/clouddb02?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=GMT%2B8              # 数据库名称
     username: root
