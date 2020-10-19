@@ -29,11 +29,7 @@ eureka:
     instance-id: payment8001
     prefer-ip-address: true
  
-info:
-  app.name: hc-microservicecloud-springcloudconfig01
-  company.name: www.hc.com
-  build.artifactId: $project.artifactId$
-  build.version: $project.version$
+ 
 ---
 server:
   port: 8001
